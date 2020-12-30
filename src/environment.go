@@ -1,5 +1,12 @@
 package main
 
+/*
+#cgo CFLAGS: -I.
+#cgo LDFLAGS: -L. -lposh3
+#include <stdlib.h>
+#include <posh3.h>
+*/
+import "C"
 import (
 	"bufio"
 	"bytes"
